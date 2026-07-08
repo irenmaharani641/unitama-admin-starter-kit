@@ -220,9 +220,9 @@
     @stack('modals')
 
     <!-- add on -->
-    <script src="{{ asset('niceadmin/vendor/jquery/jquery.min.js') }}"></script>
+    <script src="{{ asset('niceadmin/vendor/jquery/jquery-3.7.1.min.js') }}"></script>
     <script src="{{ asset('niceadmin/vendor/parsley/parsley.min.js') }}"></script>
-    <script src="{{ asset('niceadmin/vendor/sweetalert2/sweetalert2.min.js') }}"></script>
+    <script src="{{ asset('niceadmin/vendor/sweetalert2/sweetalert2@11') }}"></script>
     <script src="{{ asset('niceadmin/vendor/dataTables/js/dataTables.js') }}"></script>
     <script src="{{ asset('niceadmin/vendor/dataTables/js/dataTables.bootstrap5.js') }}"></script>
 
