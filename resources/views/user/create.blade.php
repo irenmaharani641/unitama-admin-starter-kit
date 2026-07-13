@@ -70,8 +70,8 @@
                     <div class="col-md-6">
                         <label for="role" class="form-label required">Role</label>
 
-                        <select class="form-select" aria-label="Default select example" name="role" id="role"
-                            required>
+                        <select class="form-select select2-default" aria-label="Default select example" name="role"
+                            id="role" required>
                             <option value="">pilih Role</option>
                             <option value="Superadmin"@selected(old('role') == 'Superadmin')>
                                 SuperAdmin</option>
